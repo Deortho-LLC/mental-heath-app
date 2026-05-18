@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realize. Reset. Refocus. Be Your Best Van Gogh.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: #000;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: #1a1a1a;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 1rem;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 4rem 0 3rem;
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+        }
+
+        .tagline {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+
+        .subheader {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+
+        .btn-secondary {
+            background: #f5f5f5;
+            color: #000;
+            margin-top: 1rem;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        /* Steps */
+        .steps {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .step {
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #000;
+        }
+
+        .step h3 {
+            color: #000;
+            margin-bottom: 0.5rem;
+        }
+
+        .step p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* Email signup */
+        .email-form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        .email-form input {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .email-form input:focus {
+            outline: none;
+            border-color: #000;
+            box-shadow: 0 0 0 3px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        /* Link styling */
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .tagline {
+                font-size: 1.7rem;
+            }
+
+            section {
+                padding: 2rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="tagline">Realize. Reset. Refocus.</div>
+            <div class="tagline" style="font-size: 1.5rem; margin-bottom: 2rem;">Be Your Best Van Gogh.</div>
+            
+            <p class="subheader">The most creative people feel things deeply. When stress strikes, brilliant ideas vanish—but so do you. This app detects the moment stress blocks your creativity—and redirects that intense energy toward what matters: your work.</p>
+            
+            <button class="btn">Start Free</button>
+        </section>
+
+        <!-- Problem -->
+        <section>
+            <h2>Brilliant Energy. Dangerous Direction.</h2>
+            
+            <p>Van Gogh felt everything intensely. That's what made him a genius—2,100 paintings in a decade. But when stress overwhelmed him, that same intensity had nowhere to go. It turned inward. He cut off his ear. His energy spiraled into self-harm instead of art.</p>
+
+            <p>His problem wasn't big feelings. It was big feelings with no direction.</p>
+
+            <p>Here's why it happens: Stress shuts down the Default Mode Network—the part of your brain where creativity lives. When your nervous system is flooded, you can't think. You can't create. So that intense energy has nowhere to go but inward.</p>
+
+            <p><strong>Your sensitivity is your superpower. Unmanaged, it becomes a trap.</strong></p>
+        </section>
+
+        <!-- Solution -->
+        <section>
+            <h2>3 Steps: Realize. Reset. Refocus.</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <h3>Step 1 — REALIZE</h3>
+                    <p>Your Apple Watch detects stress before you do. When your nervous system activates (HRV drops), the app alerts you instantly. This is the moment. Not tomorrow. Now.</p>
+                </div>
+
+                <div class="step">
+                    <h3>Step 2 — RESET</h3>
+                    <p>42 seconds of guided breathing (4-in, 6-out) with haptic cues on your wrist. Your nervous system returns. Your energy stabilizes.</p>
+                </div>
+
+                <div class="step">
+                    <h3>Step 3 — REFOCUS</h3>
+                    <p>An exercise that brings you back to the present time and place. Look around. Notice what's real right now—your feet on the ground, your hands, the light, the air. You're anchored. Then capture that intensity—voice memo, text, whatever flows. The app learns when you're most creative and prompts you at the perfect moment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why It Works -->
+        <section>
+            <h2>Redirect Energy. Don't Suppress It.</h2>
+            
+            <p>This isn't about calming down or meditating away your passion. It's about redirecting it.</p>
+
+            <p><strong>The science:</strong></p>
+            <ul style="margin-left: 1rem; color: #555;">
+                <li style="margin-bottom: 0.8rem;">Stress (HRV drop) is detectable and interruptible in real-time.</li>
+                <li style="margin-bottom: 0.8rem;">Guided breathing at 4-6 breaths/minute shifts your nervous system toward calm.</li>
+                <li style="margin-bottom: 0.8rem;">Grounding techniques interrupt the spiral and return you to the present.</li>
+                <li style="margin-bottom: 0.8rem;">The Default Mode Network—where genius lives—only activates when you're relaxed enough to think, but still energized enough to create.</li>
+            </ul>
+
+            <p style="margin-top: 1.5rem;">The difference: Van Gogh created masterpieces when his energy flowed outward. He suffered when it turned inward. This app makes sure your intensity always has an outlet.</p>
+
+            <p style="margin-top: 1rem;"><a href="#">Learn More: Read the Research</a></p>
+        </section>
+
+        <!-- Privacy -->
+        <section>
+            <h2>Your Intensity Stays Private</h2>
+            
+            <p>100% local. All data lives on your phone. No cloud. No servers. No tracking.</p>
+
+            <p>Your heart rate, your ideas, your patterns—they never leave your device. This is sacred ground. We protect it like Van Gogh would have protected his studio.</p>
+        </section>
+
+        <!-- CTA -->
+        <section>
+            <h2>Be Your Best Van Gogh</h2>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 1.5rem;">Direct your energy. Create your masterpiece.</p>
+
+            <form class="email-form">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit" class="btn">Get Early Access</button>
+            </form>
+
+            <p style="text-align: center; font-size: 0.9rem; color: #888;">Join the waitlist. Be the first to redirect your intensity toward what matters.</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Privacy First • Energy Directed • Built for Intense Creatives</p>
+    </footer>
+
+    <script>
+        // Handle form submission
+        document.querySelector('.email-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.querySelector('.email-form input').value;
+            alert(`Thanks! We'll notify ${email} when you can join.`);
+            document.querySelector('.email-form input').value = '';
+        });
+    </script>
+</body>
+</html>
